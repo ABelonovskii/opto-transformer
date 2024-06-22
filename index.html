@@ -30,10 +30,10 @@
     <p>Loading, please wait...</p>
     <script>
         function checkAvailability() {
-            fetch('https://vcseltransformerweb.onrender.com')
+            fetch('https://opto-transformer.onrender.com')
                 .then(response => {
                     if (response.ok) {
-                        window.location.href = 'https://vcseltransformerweb.onrender.com';
+                        window.location.href = 'https://opto-transformer.onrender.com';
                     } else {
                         setTimeout(checkAvailability, 5000);
                     }
